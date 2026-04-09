@@ -7,7 +7,7 @@
 
 export const meta = {
   title: "LATAM Nutrition Ecosystem Transformation",
-  logo: "/Logo-abbott.png",
+  logo: "/logo_abbott.png",
   presenter: "Your Regional Growth Partner",
 };
 
@@ -20,8 +20,7 @@ export const sections = [
     kicker: "Strategic Deck",
     title: "LATAM Nutrition Ecosystem Transformation",
     subtitle: "Presented by: Your Regional Growth Partner",
-    image:
-      "https://plus.unsplash.com/premium_photo-1723118424218-54c1de8140c7?q=80&w=2453&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/hero_bg.jpg",
   },
 
   // ── 1  EXECUTIVE SUMMARY ────────────────────────────────
@@ -244,8 +243,9 @@ export const sections = [
     contact: {
       name: "Stefanie Parra",
       cta: "Ask me anything",
-      email: "stefanieparra@sp.com",
+      email: "Stefanie.parra@vml.com",
       avatar: "/sp.jpeg",
+      company: "/wpp.png",
     },
   },
 ];

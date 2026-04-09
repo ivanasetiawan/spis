@@ -208,7 +208,7 @@
       <img
         src={sections[0].image}
         alt=""
-        class="w-full h-full object-cover opacity-18 saturate-[0.6]"
+        class="w-full h-full object-cover opacity-40"
       />
 
       <div
@@ -239,7 +239,7 @@
         {sections[0].subtitle}
       </p>
 
-      <div class="flex justify-center items-center">
+      <div class="flex justify-center items-center gap-4 mt-10 mb-6">
         <div class="text-2xl font-light text-brand-dim tracking-wide">For:</div>
         <img src={meta.logo} alt="Client: Abbott" class="w-48 object-contain" />
       </div>
@@ -793,7 +793,7 @@
     class="relative min-h-screen flex items-center px-6 py-24 bg-gradient-to-b from-brand-bg via-brand-blue/[0.06] to-brand-bg text-center"
   >
     <div
-      class="max-w-[700px] mx-auto transition-all duration-800 ease-out {revealedMap[
+      class="max-w-[760px] mx-auto transition-all duration-800 ease-out {revealedMap[
         'partnering'
       ]
         ? 'opacity-100 translate-y-0'
@@ -815,7 +815,7 @@
         {sections[8].quote}
       </blockquote>
 
-      <p class="text-lg leading-relaxed text-brand-dim mb-12">
+      <p class="text-lg leading-relaxed mb-12">
         {sections[8].objective}
       </p>
 
@@ -846,6 +846,18 @@
       </div>
     </div>
   </article>
+  <footer
+    class="flex justify-center py-4 bg-white text-gray-500 items-center gap-3"
+  >
+    <a href="https://www.wpp.com" target="_blank" rel="noopener noreferrer">
+      <img
+        src={sections[8].contact.company}
+        alt="WPP"
+        class="w-20 h-auto object-contain"
+      />
+    </a>
+    Copyright &copy; {new Date().getFullYear()} WPP. All rights reserved.
+  </footer>
 </main>
 
 <style>
