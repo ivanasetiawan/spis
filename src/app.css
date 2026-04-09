@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* Self-hosted Brandon Grotesque */
+@font-face {
+  font-family: "BrandonGrotesque";
+  src: url("/fonts/BrandonGrotesque-Thin.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque";
+  src: url("/fonts/BrandonGrotesque-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque";
+  src: url("/fonts/BrandonGrotesque-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque";
+  src: url("/fonts/BrandonGrotesque-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque";
+  src: url("/fonts/BrandonGrotesque-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque";
+  src: url("/fonts/BrandonGrotesque-Black.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-brand-blue: #007acc;
+  --color-brand-navy: #203e7c;
+  --color-brand-ice: #e7f2fb;
+  /* --color-brand-purple: #470a68; */
+  --color-brand-purple: #986bb0;
+  --color-brand-bg: #070b14;
+  --color-brand-card: rgba(255, 255, 255, 0.04);
+  --color-brand-card-border: rgba(255, 255, 255, 0.07);
+  --color-brand-text: #e8ecf4;
+  --color-brand-dim: rgba(232, 236, 244, 0.55);
+
+  --font-display: "BrandonGrotesque", Georgia, serif;
+  --font-body:
+    "BrandonGrotesque", -apple-system, BlinkMacSystemFont, sans-serif;
+}
