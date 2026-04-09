@@ -266,7 +266,7 @@
     </div>
   </article>
 
-  <!-- ── EXECUTIVE SUMMARY ── -->
+  <!-- EXECUTIVE SUMMARY -->
   <article
     id="executive-summary"
     class="relative min-h-screen flex items-center px-6 py-24 bg-brand-bg"
@@ -787,11 +787,22 @@
     </div>
   </article>
 
-  <!-- ── CLOSING / CTA ── -->
+  <!-- CLOSING / CTA -->
   <article
     id="partnering"
     class="relative min-h-screen flex items-center px-6 py-24 bg-gradient-to-b from-brand-bg via-brand-blue/[0.06] to-brand-bg text-center"
   >
+    <div class="absolute inset-0 z-0">
+      <img
+        src={sections[8].background}
+        alt=""
+        class="w-full h-full object-cover opacity-30"
+      />
+
+      <div
+        class="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_40%,rgba(0,122,204,0.15),transparent_60%),radial-gradient(ellipse_at_70%_60%,rgba(71,10,104,0.12),transparent_60%),linear-gradient(180deg,rgba(7,11,20,0.3)_0%,rgba(7,11,20,0.95)_100%)]"
+      ></div>
+    </div>
     <div
       class="max-w-[760px] mx-auto transition-all duration-800 ease-out {revealedMap[
         'partnering'
@@ -820,7 +831,7 @@
       </p>
 
       <div
-        class="flex flex-col sm:flex-row items-center gap-6 p-7 bg-brand-blue/[0.06] border border-brand-blue/15 rounded-2xl max-w-[440px] mx-auto transition-all duration-350 hover:border-brand-blue/35 hover:shadow-[0_12px_40px_rgba(0,122,204,0.12)] hover:-translate-y-0.5"
+        class="flex flex-col sm:flex-row items-center gap-6 p-7 bg-brand-bg/[0.5] border border-brand-blue/15 rounded-2xl max-w-[440px] mx-auto transition-all duration-350 hover:border-brand-blue/35 hover:shadow-[0_12px_40px_rgba(0,122,204,0.12)] hover:-translate-y-0.5"
       >
         <img
           src={sections[8].contact.avatar}

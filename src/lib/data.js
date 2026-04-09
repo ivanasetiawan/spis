@@ -20,7 +20,7 @@ export const sections = [
     kicker: "Strategic Deck",
     title: "LATAM Nutrition Ecosystem Transformation",
     subtitle: "Presented by: Your Regional Growth Partner",
-    image: "/hero_bg.jpg",
+    image: "/hero_bg_Pediasure.jpg",
   },
 
   // ── 1  EXECUTIVE SUMMARY ────────────────────────────────
@@ -236,6 +236,7 @@ export const sections = [
     kicker: "8: Partnering",
     title: "Partnering for Transformation",
     subtitle: "Beyond Vendor Status",
+    background: "/hero_bg_Ensure.jpg",
     quote:
       '"We are not an agency that executes ads; we are the architects of your regional legacy."',
     objective:
